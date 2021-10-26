@@ -1,0 +1,74 @@
+body.index {
+    background-image: url(pics/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+body.other{
+    background-image: url(pics/bgi.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-size: 75px;
+    color: #DC143C;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(7, 7, 7, 0);
+}
+h2{
+    font-size: 20px;
+    color: #DC143C;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia;
+    background-color: rgba(7, 7, 7, 1);
+}
+.sections{
+    font-size: 40px;
+    color: #f3115d;
+    font-family: Georgia;
+    font-weight: bold;
+    letter-spacing: 10px;
+    background-color: rgba(7, 7, 7, 0.62);
+}
+.names{
+    font-size: 20px;
+    color: #F0E68C;
+    font-family: Georgia;
+    font-weight: bold;
+    background-color: rgba(7,7,7, 0.62);
+}
+.pics{
+    margin-top: 10px;
+}
+.text{
+    font-size: 20px;
+    color: #F0E68C;
+    font-family: Georgia;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background-color: rgba(7,7,7, 0.62);
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+tr{
+    text-align:center;
+}
+p{
+    font-size: 20px;
+    color:  #FFFF00;
+    font-family: Georgia;
+}
+button {
+    display: block;
+    font-family: Georgia;
+    font-weight: bold;
+    background-color: #F0E68C;
+    border-width:medium;
+    border-color: black;
+    padding: 5px 10px;
+}
